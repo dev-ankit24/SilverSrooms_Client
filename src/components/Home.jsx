@@ -16,18 +16,7 @@ import  msicon from "./assets/img/msroom-icon.png"
 const CustomPrevArrow = ({ onClick }) => (
   <div
     onClick={onClick}
-    style={{
-      position: "absolute",
-      left: "-25px",
-      top: "50%",
-      transform: "translateY(-50%)",
-      zIndex: 2,
-      fontSize: "45px",
-    
-      cursor: "pointer",
-      color: "#004B49",
-      
-    }}
+    className='prevArrowBtn'
   >
     ‹
   </div>
@@ -36,16 +25,17 @@ const CustomPrevArrow = ({ onClick }) => (
 const CustomNextArrow = ({ onClick }) => (
   <div
     onClick={onClick}
-    style={{
-      position: "absolute",
-      right: "-25px",
-      top: "50%",
-      transform: "translateY(-50%)",
-      zIndex: 2,
-      fontSize: "45px",
-      cursor: "pointer",
-      color: "#004B49",
-    }}
+    // style={{
+    //   position: "absolute",
+    //   right: "-25px",
+    //   top: "50%",
+    //   transform: "translateY(-50%)",
+    //   zIndex: 2,
+    //   fontSize: "45px",
+    //   cursor: "pointer",
+    //   color: "#004B49",
+    // }}
+    className='nextArrowBtn'
   >
     ›
   </div>
