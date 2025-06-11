@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* #B5B7BB */
+}
+.navbar-first>nav{
+   /* background: #e2c3a5 ; */
+   /* background: #004b49; */
+   background: #004445;
+}
+.navbar-first>nav>div>div>a{
+    color: white;
+}
+.navbar-first-child{
+    margin-left: 46%;
+}
+.navbar-second{
+    margin-left: 40%;
+}
+
+/* home page */
+
+
+.bout-home-page-parent{
+    background-image: url("../img//about.jpg");
+    background-size: cover;
+    height: 32rem; 
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.home-product-slider-subchild{
+    margin-bottom: 5rem;
+    margin-top:5rem;
+}
+.about-home-page{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* background: #004b49; */
+    background: #004445;
+    /* background: #e2c3a5; */
+    color: white;
+    padding: 45px;
+    z-index: 1;
+    height: 23rem;
+    margin-top: 4rem;
+    border-radius: 10px;
+}
+.card-slider-home{
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    height: 14rem;
+    width: 100%;
+    margin-left: 13%;
+}
+.card-slider-home>img{
+    height: 14rem;
+    width: 13rem; 
+       /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+
+}
+.home-slider-btn-parent{
+    width: 100%;
+}
+.home-slider-btn-child{
+    width: 30rem;
+    margin: auto;
+    background: #e2c3a5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 5rem;
+    border-radius: 5px;
+    font-weight: 800;
+}
+.hight-quality-btn-parent{
+    width: 100%;
+}
+.hight-quality-btn-child{
+    margin: auto;
+    width: 150px;
+    background: #e2c3a5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+.high-quality-left{
+    margin-top: 55px;
+}
+.high-quality-left>img{
+    width: 100%;
+    height: 19rem;
+}
+
+.high-quality-right{
+    margin-top: 55px;
+    padding: 25px;
+}
+.high-quality-right>p{
+  text-align: justify;
+ 
+}
+.we-are-do-main{
+    margin-top: 25px;
+    display: flex;
+  text-align: justify;
+
+}
+.we-are-do-main-mob{
+    display: none;
+}
+.we-are-do-right{
+    width: 100%;
+    padding: 25px;
+    height: 19rem;
+}
+.we-are-do-right>img{
+    width: 100%;
+    height: 19rem;
+}
+
+.we-are-do-child{
+    padding: 25px;
+}
+.we-are-do-parent{
+    margin-top: 25px;
+}
+.helth-benefits-oyster{
+    margin-top: 45px;
+}
+
+.center-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  background-color: #f8f9fa;
+  z-index: 2;
+}
+
+/* benefits */
+.health-benefitsNo-right>span{
+  margin-top: -25px;
+  margin-left: -30px;
+}
+.health-benefitsNo-second-left>span{
+  margin-top: -23px;
+  margin-right: -25px;
+}
+
+
+/* about page */
+.about-page-left{
+    margin-top: 55px;
+
+}
+.about-page-left>img{
+    width: 100%;
+    height: 19rem;
+}
+.about-page-right{
+    margin-top: 55px;
+    padding: 25px;
+}
+.about-page-right>p{
+  text-align: justify;
+}
+.about-packing-left{
+  margin-top: 55px;
+}
+.about-packing-left>p{
+  text-align: justify;
+}
+.about-packing-desk{
+  display: flex;
+}
+.about-packing-right{
+    width: 100%;
+    padding: 25px;
+    height: 17rem;
+    margin-top: 25px;
+}
+.about-packing-right>img{
+    width: 100%;
+    height: 17rem;
+}
+.about-packing-mob{
+  display: none;
+}
+.about-hero{
+  height: 21rem;
+  width: 100%;
+}
+.about-hero>img{
+  height: 21rem;
+  width: 100%;
+}
+
+
+/* gallery page */
+.gallery-hero{
+  height: 22rem;
+  width: 100%;
+}
+.gallery-hero>img{
+  height: 22rem;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------- Media query for mobile screen----------------------------------------- */
+
+/* Mobile Devices (phones, < 768px) */
+@media (max-width: 767px) {
+ .about-home-page{
+    background: #004B49 ;
+    color: white;
+    padding: 45px;
+    height: 32rem;
+    margin-top: 4rem;
+    border-radius: 10px;
+}
+.bout-home-page-parent{
+    background-image: url("../img//about.jpg");
+    background-size: cover;
+    height: 39rem; 
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.home-product-slider-subchild>h1{
+    font-size: 28px;
+}
+.card-slider-home{
+    height: 14rem;
+    width: 100%;
+    margin-left: 0%;
+}
+.card-slider-home>img{
+    height: 14rem;
+    width: 100%;  
+    /* object-fit: cover;   */
+    
+}
+.home-slider-btn-parent{
+    width: 100%;
+}
+.home-slider-btn-child{
+    width: 100%;
+    margin: auto;
+    background: #e9e2d6;
+    margin-top: 2rem;
+    font-weight: 800;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.high-quality-left{
+    margin-top: 55px;
+}
+.high-quality-right{
+    margin-top: -5px;
+    padding: 25px;
+}
+.high-quality-right>h1{
+    font-size: 22px;
+}
+.we-are-do-main{
+    display: none;
+}
+.hight-quality-btn-child{
+    margin: auto;
+    width: 100%;
+    background: #e2c3a5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+/* benefits */
+.health-benefitsNo-second-left>span{
+  margin-top: -10px;
+  margin-right: 0px;
+  margin-bottom: -35px;
+}
+.gallery-hero{
+  height: 18rem;
+  width: 100%;
+  margin-bottom: -40px;
+}
+.gallery-hero>img{
+  height: 18rem;
+  width: 100%;
+}
+.navbar-second{
+    margin-left:5%;
+}
+.we-are-do-main-mob{
+  display: block;
+}
+.about-packing-desk{
+  display: none;
+}
+.about-packing-mob{
+  display: block;
+}
+.about-page-right{
+    margin-top: 15px;
+    padding: 25px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablets (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets */
+}
+
+/* Small Desktops / Laptops (1025px to 1279px) */
+@media (min-width: 1025px) and (max-width: 1279px) {
+  /* Styles for small desktops/laptops */
+}
+
+/* Large Desktops (1280px and above) */
+@media (min-width: 1280px) {
+  /* Styles for large screens */
+}
