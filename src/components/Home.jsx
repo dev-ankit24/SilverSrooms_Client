@@ -93,8 +93,8 @@ export default function Home() {
                          </div>
                          <div className="col-md-6">
                                 <div className="about-home-page">
-                                   <h1>One  SilverSrooms of a mushroom supplier.</h1>
-                                    <p>SilverSrooms Earth Oyster Mushrooms is the original powerhouse in the organic mushroom industry, providing 100% Certified Organic mushrooms to retail, food service, distributors, QSR, and end-consumers for over 30 years.</p>
+                                   <h1>  SilverSrooms of a mushroom supplier.</h1>
+                                    <p>SilverSrooms  Oyster Mushrooms is the original powerhouse in the organic mushroom industry, providing 100% Certified Organic mushrooms to retail, food service, distributors, QSR, and end-consumers for over 30 years.</p>
                                     <div className="about-home-page-btn">
                                       <Link to='/products'> <button className='btn w-100 bg-light'>View Mashrooms Products</button></Link>   
                                     </div>
