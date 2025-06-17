@@ -2,10 +2,43 @@ import React from 'react'
 import  ms1 from "./assets/img/mashroom3.png"
 import  ms2 from "./assets/img/mashroom1.png"
 import hero from "./assets/img/about-hero.jpg"
+import { Helmet } from "react-helmet";
 export default function About() {
+    const canonicalUrl = "http://localhost:3001/about";
   return (
     <>
+  <Helmet>
+        {/* Title and Description */}
+        <title>About Us | Mashrooms</title>
+        <meta name="description" content="About Mashrooms and our organic mushroom mission." />
 
+        {/* Canonical Link */}
+        <link rel="canonical" href={canonicalUrl} />
+
+        {/* Robots Meta Tag */}
+        <meta name="robots" content="index, follow" />
+
+        {/* X-Robots-Tag (Note: Not respected by Helmet in client side, best for server headers) */}
+        <meta http-equiv="X-Robots-Tag" content="index, follow" />
+
+        {/* Keywords (less important for modern SEO, but still used by some engines) */}
+        <meta name="keywords" content="mashrooms, organic, farming, about, healthy food" />
+
+        {/* Custom Word Count (not a real SEO tag, for info only) */}
+        <meta name="word-count" content="150" />
+
+        {/* Publisher */}
+        <meta name="publisher" content="Mashrooms Pvt Ltd" />
+
+        {/* Language */}
+        <html lang="en" />
+
+        {/* Open Graph (for social sharing) */}
+        <meta property="og:title" content="About Us - Mashrooms" />
+        <meta property="og:description" content="High-quality mushrooms, grown organically." />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content="website" />
+      </Helmet>
     <div className="about-hero">
       <img src={hero} alt="" />
     </div>
